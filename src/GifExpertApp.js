@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 export const GifExpertApp =() =>{
 
     //const categories = ['One Punch','SAmurai x', 'Dragon Ball'];
+    //Comentarios
     
    const [categories, setcategories] = useState(['One Punch','SAmurai x', 'Dragon Ball']);
 

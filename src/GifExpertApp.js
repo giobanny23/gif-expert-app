@@ -6,7 +6,7 @@ export const GifExpertApp =() =>{
     //const categories = ['One Punch','SAmurai x', 'Dragon Ball'];
     //Comentarios
     
-   const [categories, setcategories] = useState(['One Punch','SAmurai x', 'Dragon Ball']);
+   const [categories, setCategories] = useState(['One Punch','SAmurai x', 'Dragon Ball']);
 
    //const handleAdd = () =>{
        //setCategories ([ 'HunterXHunter'...categories]);
@@ -16,7 +16,7 @@ export const GifExpertApp =() =>{
     return (
         <>
             <h2>GifExpertApp</h2>
-            <AddCategory/>
+            <AddCategory setCategories={setCategories}/>
             <hr/>  
             
             <ol>

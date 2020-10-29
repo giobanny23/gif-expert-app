@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-export default function GifGridItem( img) {
-    console.log(img)
+export const GifGridItem =({ id, title, url}) =>{
 
-    return (
+    console.log(id,title, url);
+
+    return(
         <div>
+               <img src={ url } alt={ title } />
+                <p> { title }</p> 
 
         </div>
     )
+
 }

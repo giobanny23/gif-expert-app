@@ -11,6 +11,13 @@ input{
     width: 100%;
 }
 
+
+.card-grid{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
 .card{
    align-content: center;
    border: 1px solid grey;
@@ -25,5 +32,5 @@ input{
 
 }
 .card img{
-    max-height: 170pc;
+    max-height: 170px;
 }

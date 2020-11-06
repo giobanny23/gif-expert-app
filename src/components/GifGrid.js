@@ -1,6 +1,6 @@
 import React from 'react'
 import { useFetchGifs } from '../hooks/useFectchGifs'
-//import { getGifs } from '../helpers/getGifs';
+import { getGifs } from '../helpers/getGifs';
 //import { GifGridItem } from './GifGridItem';
 
 export const GifGrid = ({category}) => {
@@ -9,23 +9,13 @@ export const GifGrid = ({category}) => {
 
     const { loading }= useFetchGifs( category );
 
-    // console.log(data);
-    // console.log(loading);
-
-    // useEffect( () =>{
-    //     getGifs( category)
-    //     .then(setImages);
-    // }, [ category ])
-
-   
-
 
     return (
 
         <>
-            <h3>{ category }</h3> 
+            <h3> { category } </h3> 
             
-            { loading ? 'Cargando...': 'Data cargada'}
+             { loading ? 'Cargando...':'Data cargada'}
 
             {/* <div className="card-grid">
                 

@@ -7,7 +7,7 @@ export const useFetchGifs =( category) => {
         data: [],
         loading:true
     });
-    useEffect (() =>{
+    useEffect (() =>{ 
        getGifs( category)
         .then( imgs => {
             setTimeout(() =>{

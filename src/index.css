@@ -4,11 +4,15 @@
 
 body{
     padding: 60px;
+    background: grey;
 }
 input{
     color: grey;
     font-size: 1.2rem;  
-    width: 100%;
+    width: 50%;
+    border-radius: 10px;
+    
+
 }
 
 

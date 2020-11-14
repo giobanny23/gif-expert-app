@@ -9,7 +9,8 @@ describe('Pruebas en el <GifGrid />', () => {
     test('debe mostrar correctamente', () => {
 
         const wrapper = shallow( <GifGrid category = {category}/>);
-        console.log(GifGrid);
+        //console.log(GifGrid);
+        expect( wrapper).toMatchSnapshot();
     })
 
     

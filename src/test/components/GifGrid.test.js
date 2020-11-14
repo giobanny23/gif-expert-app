@@ -11,5 +11,6 @@ describe('Pruebas en el <GifGrid />', () => {
         const wrapper = shallow( <GifGrid category = {category}/>);
         console.log(GifGrid);
     })
+
     
 })
